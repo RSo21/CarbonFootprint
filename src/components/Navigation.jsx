@@ -2,26 +2,30 @@ import {NavLink} from "react-router-dom";
 import React from "react";
 
 
-const activeStyle = {
-    color: 'red',
-}
 
 const Navigation  = () => {
     return (
-        <ul>
-            <li>
-                <NavLink exact to="/home" activeStyle ={activeStyle}>Home</NavLink>
-            </li>
-            <li>
-                <NavLink exact to="/about" activeStyle ={activeStyle}>About</NavLink>
-            </li>
-            <li>
-                <NavLink exact to="/whatisyourcarbonfootprint" activeStyle ={activeStyle}>Start</NavLink>
-            </li>
-            <li>
-                <NavLink exact to="/contact" activeStyle ={activeStyle}>Contact</NavLink>
-            </li>
-        </ul>
+    <header className = "page-header">
+        <div className = "col-full col-full-mob nav">
+            <div className = "logo">CarbonFootprint</div>
+            <nav className = "page-nav"><i className = "icon-menu"></i>
+                <ul className = "page-nav-list">
+                    <li>
+                        <a href = "#">HOME</a>
+                    </li>
+                    <li>
+                        <NavLink exact to="/about" >ABOUT</NavLink>
+                    </li>
+                    <li>
+                        <NavLink exact to="/energy" >START</NavLink>
+                    </li>
+                    <li>
+                        <NavLink exact to="/contact" >CONTACT</NavLink>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     )
 }
 export default Navigation;

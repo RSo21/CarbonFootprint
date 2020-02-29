@@ -1,0 +1,125 @@
+::root {
+    /*Kolory które nam dadzo*/
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container,
+.container-fw {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+/*Jakby się przyadało
+
+.no-gaps {
+    margin: 0;
+}
+
+.no-gaps > [class*="col-"] {
+    padding: 0;
+}
+
+Żeby kontener również stracił paddingi po bokach, po prostu go pominąć w HTML i działać na samym .inner.no-gaps
+Pamiętać, by lista class w HTML zaczynała się od wersji mobilnej!*/
+
+.col-full-mob,
+.col-half-mob,
+.col-third-mob,
+.col-fourth-mob,
+.col-full,
+.col-half,
+.col-third,
+.col-fourth,
+.col-flex {
+    padding: 0 1rem;
+}
+
+.col-flex {
+    padding: 0 1rem;
+}
+
+.col-full-mob {
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.col-half-mob {
+    flex: 0 0 calc(100% / 12 * 6);
+    width: calc(100% / 12 * 6);
+}
+
+.col-third-mob {
+    flex: 0 0 calc(100% / 12 * 4);
+    width: calc(100% / 12 * 4);
+}
+
+.col-fourth-mob {
+    flex: 0 0 calc(100% / 12 * 3);
+    width: calc(100% / 12 * 3);
+}
+
+.col-flex {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+
+@media only screen and (min-width: 979px) {
+    .container {
+        width: 960px;
+    }
+
+    .col-full {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .col-half {
+        flex: 0 0 calc(100% / 12 * 6);
+        width: calc(100% / 12 * 6);
+    }
+
+    .col-third {
+        flex: 0 0 calc(100% / 12 * 4);
+        width: calc(100% / 12 * 4);
+    }
+
+    .col-fourth {
+        flex: 0 0 calc(100% / 12 * 3);
+        width: calc(100% / 12 * 3);
+    }
+}

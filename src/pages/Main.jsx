@@ -1,25 +1,42 @@
 import React from 'react';
 import Navigation from '../components/Navigation'
+import Content from '../components/Content'
 
-const Main = () =>{
+import {Component} from 'react';
+
+
+class Main extends Component{
+    state = {
+        footprintList: [],
+    }
+
+    componentDidMount() {
+        fetch(`http://localhost:4000/footprint`)
+        .then((response) => {
+            return response.json();
+
+        })
+        .then((data) => {
+            this.setState({
+                footprintList: data,
+            })
+        });
+    }
+
+
+render(){
+    const { footprintList} = this.state;
     return(
         <>
-        <header>
         <Navigation />
-        </header>
-        <div>
-            <h1>What is your Carbon Footprint?</h1>
-            
-            <button>START</button>
-        </div>
-        <div>
-
-        </div>
+        <Content />
         <footer>
             <p>&#169;</p>
         </footer>
         </>
     );
-};
+}
+}
+
 
 export default Main;

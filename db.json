@@ -1,0 +1,89 @@
+{
+    "footprint": [
+        {
+            "type": "energy",
+            "answer": [
+                "I live in a building that was built to be energy efficient.",
+                "I live in a normal building but I use renewable energy for heating.",
+                "I live in a normal building that is heated with oil or natural gas."
+            ],
+            "footprint": [
+                "0.2",
+                "0.8",
+                "2"
+            ]
+        },
+    
+        {
+            "type": "warmWater",
+            "answer": [
+                "I generally don't shower for longer that 5 minutes and I rarely take a bath.",
+                "I love standing under the shower for a good 20 minutes - but in exchange I rarely have baths.",
+                " often have baths - but in exchange I shower less often and only have short showers."
+            ],
+            "footprint": [
+                "0.6",
+                "1.1",
+                "1.7"
+            ]
+        },
+    
+        {
+            "type": "personalTransport",
+            "answer": [
+                "I almost always go by public transport, cycle or walk.",
+                "I use the car and public transport about the same amount.",
+                "I almost always drive by car."
+            ],
+            "footprint": [
+                "0.8",
+                "2.2",
+                "2.6"
+            ]
+        },
+    
+        {
+            "type": "flying",
+            "answer": [
+                "",
+                "",
+                ""
+            ],
+            "footprint": [
+                "0",
+                "0.8",
+                "4.7"
+            ]
+        },
+    
+        {
+            "type": "food",
+            "answer": [
+                "only eat vegetarian food.",
+                "I eat meat 2 to 3 times a week.",
+                "I eat meat almost every day - mostly from an unknown source."
+            ],
+            "footprint": [
+                "1",
+                "1.2",
+                "2"
+            ]
+        },
+    
+        {
+            "type": "shopping",
+            "answer": [
+                "I very rarely buy new products, clothes or decorative items.",
+                "I buy new products, clothes or decorative things every now and again.",
+                "I buy a new appliance, decoration, clothes or shoes every week."
+            ],
+            "footprint": [
+                "0.7",
+                "1.1",
+                "1.3"
+            ]
+        } 
+    
+    ]
+}
+  

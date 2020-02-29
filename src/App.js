@@ -5,6 +5,9 @@ import Main from './pages/Main';
 
 import "../src/scss/main.scss";
 
+import "../src/fontello/css/fontello.css"
+
+
 
 import Energy from './pages/Energy';
 import WarmWater from "./pages/WarmWater";
