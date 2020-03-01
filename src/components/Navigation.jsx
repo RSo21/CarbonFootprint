@@ -14,10 +14,10 @@ const Navigation  = () => {
                         <a href = "#">HOME</a>
                     </li>
                     <li>
-                        <a href = "#about">ABOUT</a>
+                        <a href = "#">ABOUT</a>
                     </li>
                     <li>
-                        <NavLink exact to="/energy" >START</NavLink>
+                        <NavLink exact to="/questions" >START</NavLink>
                     </li>
                     <li>
                         <NavLink exact to="/contact" >CONTACT</NavLink>

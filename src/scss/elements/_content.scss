@@ -5,6 +5,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: $mainFont;
 
         .content-foto{
             position: relative;
@@ -29,7 +30,7 @@
 
                 p{
                     font-size: 2em;
-                    font-weight: 700;
+                    font-weight: 600;
                 
                     &:last-of-type{
                         font-size: 4em;

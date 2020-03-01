@@ -1,0 +1,21 @@
+.page-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .start-type{
+        padding: 2em 0;
+        font-size: 2em;
+        color: red;
+    }
+
+    .start-answer{
+        border: 0.2em solid $navColorBg;
+        border-radius: 1em;;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        margin-bottom: 1em;
+        
+    }
+}
