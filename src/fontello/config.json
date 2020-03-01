@@ -121,6 +121,12 @@
       "src": "fontawesome"
     },
     {
+      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
+      "css": "heart-empty",
+      "code": 59398,
+      "src": "fontawesome"
+    },
+    {
       "uid": "71581a9a6ce533e9390c820854e21132",
       "css": "ico_arrow-down",
       "code": 59392,

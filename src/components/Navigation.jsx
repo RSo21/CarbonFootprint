@@ -14,7 +14,7 @@ const Navigation  = () => {
                         <a href = "#">HOME</a>
                     </li>
                     <li>
-                        <NavLink exact to="/about" >ABOUT</NavLink>
+                        <a href = "#about">ABOUT</a>
                     </li>
                     <li>
                         <NavLink exact to="/energy" >START</NavLink>

@@ -1,27 +1,29 @@
 @media only screen and (min-width: 979px) {
     .content-main{
-
         margin: 0;
         padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         .content-foto{
-            position: absolute;
+            position: relative;
             z-index: 0;
 
             img{
+                box-sizing: border-box;
                 width: 100vw;
                 height: 92vh;
                 background-repeat: no-repeat;
                 padding: 0;
                 margin: 0;
-
         }
     }
         .content-element{
             content: "";
             z-index: 1;
-            position: relative;
-            top: 30vh;
+            position: absolute;
+
             .content-text{
                 color: $navColorFonts;
 
@@ -55,5 +57,4 @@
             }
         }
     }
-
 }

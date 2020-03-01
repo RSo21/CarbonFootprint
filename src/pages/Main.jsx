@@ -1,6 +1,8 @@
 import React from 'react';
 import Navigation from '../components/Navigation'
 import Content from '../components/Content'
+import About from '../components/About'
+import Footer from '../components/Footer'
 
 import {Component} from 'react';
 
@@ -30,9 +32,11 @@ render(){
         <>
         <Navigation />
         <Content />
-        <footer>
-            <p>&#169;</p>
-        </footer>
+        <About />
+        <Footer />
+        
+       
+
         </>
     );
 }

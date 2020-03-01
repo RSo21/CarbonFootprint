@@ -6,7 +6,7 @@ import Forest from '../assets/kyle-glenn.jpg';
 
 const Content  = () => {
     return (
-    <section className = "col-full content-main">
+    <section className = "content-main">
         <div className = "content-foto" >
             <img src = {Forest} alt = "forest" />
         </div>
@@ -15,19 +15,12 @@ const Content  = () => {
                 <p>Do you know...</p>
                 <p>What Is your Carbon Footprint?</p>
                 
-
             </div>
             <div className = "content-buttons">
-                <button className = "content-button"> <NavLink exact to="/energy" >START </NavLink></button>
+                <button className = "content-button"> <NavLink exact to="/energy" >START <i className = "icon-play"></i></NavLink></button>
                 <button className = "content-button">READ MORE <i className = "icon-down-open"></i></button>
             </div>
-
-
         </div>
-        
-        
-
-        
     </section>
     )
 }

@@ -21,14 +21,14 @@
     align-items: center;
     justify-content: center;
     font-family: $mainFont;
+    position: sticky;
 
     .nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        position: sticky;
-        
+         
 
         .logo{
             text-align: center;
