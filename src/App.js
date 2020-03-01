@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useState, useEffect} from 'react';
 
 import './App.css';
 import Main from './pages/Main';
@@ -16,47 +16,59 @@ import Flying from "./pages/Flying";
 import Food from "./pages/Food";
 import Shopping from "./pages/Shopping";
 
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import {useHistory} from 'react-router-dom'
 
-class App extends Component {
-  state = {
-    questions: [],
-  }
+import { Route, Switch } from 'react-router-dom';
 
-  componentDidMount(){
+const App = () => {
+
+  const [questions, setQuestions] = useState([]);
+  
+  let history = useHistory();
+
+  useEffect(() => {
     fetch('http://localhost:4000/questions')
         .then((response)=>{
             return response.json();
         })
         .then((questions)=>{
             // console.log(questions)
-            this.setState({questions});
+            setQuestions(questions);
         });
-  }
-  onPrevQuestion = () =>{
-console.log("onprev");
+  }, []);
+
+  const onPrevQuestion = (currentQuestionId) =>{
+    console.log("onprev");
+    const currentQuestionIndex = questions.findIndex(
+      (question) => question.id === currentQuestionId
+    );
+    const prevQuestionIndex = currentQuestionIndex - 1;
+    
+    history.push(`/questions/${questions[prevQuestionIndex].id}`);
   }
 
-  onNextQuestion = () =>{
+  const onNextQuestion = (currentQuestionId) =>{
     console.log("onnext");
+    const currentQuestionIndex = questions.findIndex(
+      (question) => question.id === currentQuestionId
+    );
+    const nextQuestionIndex = currentQuestionIndex + 1;
+
+    history.push(`/questions/${questions[nextQuestionIndex].id}`);
   }
 
-
-
-render(){
   return (
     <div className="App">
-        <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Main}/>
                 <Route exact path="/questions/:id" render={(props)=> {
-                  return <Question onPrevQuestion={this.onPrevQuestion} 
-                  onNextQuestion={this.onNextQuestion} 
+                  return <Question onPrevQuestion={onPrevQuestion} 
+                  onNextQuestion={onNextQuestion} 
                   
                   {...props}/>
                 }}/>
                 <Route exact path="/questions" render={()=> {
-                  return <Questions questions={this.state.questions}/>
+                  return <Questions questions={questions}/>
                 }}/>
                 <Route exact path="/warmwater" component={WarmWater}/>
                 <Route exact path="/personaltransport" component={PersonalTransport}/>
@@ -64,10 +76,8 @@ render(){
                 <Route exact path="/food" component={Food}/>
                 <Route exact path="/shopping" component={Shopping}/>
             </Switch>
-        </BrowserRouter>
     </div>
   );
-}
 }
 export default App;
 

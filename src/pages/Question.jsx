@@ -33,11 +33,11 @@ if (!question){
         </div>
         <div className = "start-buttons">
             <button
-            onClick={props.onPrevQuestion}
+            onClick={() => props.onPrevQuestion(props.match.params.id)}
             className = "start-button-prev">PREV
             </button>
             <button 
-            onClick={props.onNextQuestion}
+            onClick={() => props.onNextQuestion(props.match.params.id)}
             className = "start-button-next">NEXT</button>
         </div>
 
