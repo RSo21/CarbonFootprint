@@ -45,9 +45,9 @@
         {
             "type": "flying",
             "answer": [
-                "",
-                "",
-                ""
+                "I almost always drive by car.",
+                "I fly max. two short distance flights or one long distance every couple of years",
+                "I fly one short distance and one long distance in a year."
             ],
             "footprint": [
                 "0",

@@ -7,6 +7,7 @@ const About  = () => {
          <div className = "col-full">
              <div className = "container">
                  <p>About</p>
+                 
              </div>
          </div>
     </section>
