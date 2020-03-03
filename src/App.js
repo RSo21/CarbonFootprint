@@ -70,11 +70,11 @@ const App = () => {
                 <Route exact path="/questions" render={()=> {
                   return <Questions questions={questions}/>
                 }}/>
-                <Route exact path="/warmwater" component={WarmWater}/>
+                {/* <Route exact path="/warmwater" component={WarmWater}/>
                 <Route exact path="/personaltransport" component={PersonalTransport}/>
                 <Route exact path="/flying" component={Flying}/>
                 <Route exact path="/food" component={Food}/>
-                <Route exact path="/shopping" component={Shopping}/>
+                <Route exact path="/shopping" component={Shopping}/> */}
             </Switch>
     </div>
   );

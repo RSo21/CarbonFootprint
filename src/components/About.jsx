@@ -1,11 +1,16 @@
 import React from "react";
 
+import Foot from '../assets/foot.png';
+
 
 const About  = () => {
     return (
     <section className = "page-about">
          <div className = "col-full">
              <div className = "container">
+                 <div className = "page-about-img">
+                     <img src = {Foot} alt = "foot" />
+                 </div>
                  <p>About</p>
                  <div>
                      <p>Today, the term “carbon footprint” is often used as shorthand for the amount of carbon 

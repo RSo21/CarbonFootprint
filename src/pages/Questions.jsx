@@ -32,9 +32,9 @@ const Questions = (props) =>{
                    
                     <div className = "page-start">
                         <p className = "start-type">{question.title}</p>
-                        <div>
-                            {/* {questions.answer.map((answers, id) => <div className = "start-answer" key={id}>{answers}</div>)} */}
-                        </div>
+                        {/* <div>
+                            {questions.answer.map((answers, id) => <div className = "start-answer" key={id}>{answers}</div>)} 
+                         </div> */}
                     </div>
                 </>
                 );

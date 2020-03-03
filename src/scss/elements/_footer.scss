@@ -4,15 +4,17 @@
         height: 8vh;
         font-size: 1.5em;
         padding-top: 1em;
-        padding-bottom: 2em;
+        padding-bottom: 3em;
+        font-family: $mainFont;
 
         p{
             color: $navColorFonts;
             padding-bottom: 0.5em;
         }
 
-        .icon-heart{
-            font-size: 2em;
+        .icon-heart-empty{
+            color: $mainColor;
+            font-size: 1em;
         }
     }
 }

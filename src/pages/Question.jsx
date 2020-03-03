@@ -1,5 +1,7 @@
 import React, { useState, useEffect} from 'react';
 
+import Fern from '../assets/larm-rmah.jpg';
+
 
 const Question = (props) => {
     const [question, setQuestion] = useState(null);
@@ -26,19 +28,25 @@ if (!question){
 }
   return (
       <>
-    <div className = "page-start">
-        <p className = "start-type">{question.title}</p>
-        <div>
-            {question.answers.map((answer, id) => <div className = "start-answer" key = {id}>{answer.text}</div>)}
+    <div className = "page-start col-full">
+        <div className = "page-start-img">
+            <img className = "fernImg" src = {Fern} alt = "fern"/>  
         </div>
-        <div className = "start-buttons">
-            <button
-            onClick={() => props.onPrevQuestion(props.match.params.id)}
-            className = "start-button-prev">PREV
-            </button>
-            <button 
-            onClick={() => props.onNextQuestion(props.match.params.id)}
-            className = "start-button-next">NEXT</button>
+
+        <div className = "page-start-text">
+            <p className = "start-type">{question.title}</p>
+            <div>
+                {question.answers.map((answer, id) => <div className = "start-answer" key = {id}>{answer.text}</div>)}
+            </div>
+            <div className = "start-buttons">
+                <button
+                onClick={() => props.onPrevQuestion(props.match.params.id)}
+                className = "start-button-prev"><i className = "icon-left-open"></i> PREV 
+                </button>
+                <button 
+                onClick={() => props.onNextQuestion(props.match.params.id)}
+                className = "start-button-next">NEXT <i className = "icon-right-open"></i></button>
+            </div>
         </div>
 
     </div>

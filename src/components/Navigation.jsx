@@ -7,7 +7,7 @@ const Navigation  = () => {
     return (
     <header className = "page-header">
         <div className = "col-full col-full-mob nav">
-            <div className = "logo">CarbonFootprint</div>
+            <div className = "logo"><a href = "#">CarbonFootprint</a></div>
             <nav className = "page-nav"><i className = "icon-menu"></i>
                 <ul className = "page-nav-list">
                     <li>
@@ -17,7 +17,7 @@ const Navigation  = () => {
                         <a href = "#">ABOUT</a>
                     </li>
                     <li>
-                        <NavLink exact to="/questions" >START</NavLink>
+                        <NavLink exact to="/questions/energy" >START</NavLink>
                     </li>
                     <li>
                         <NavLink exact to="/contact" >CONTACT</NavLink>
