@@ -1,0 +1,51 @@
+@media only screen and (min-width: 979px) {
+    .page-about{
+        font-family: $mainFont;
+        .page-about-img{
+            padding-top: 2em;
+        }
+    
+        .page-about-quote{
+            border: 0.2em solid $mainColor;
+            text-align: center;
+            vertical-align: middle;
+            padding: 1em 6em;
+            p{
+              font-size: 1.4em;
+              line-height: 1.5em;  
+            }
+        }
+
+        .page-about-def,
+        .page-about-calc,
+        .page-about-reduce{
+            .page-about-question{
+                font-size: 3em;
+                padding: 1.4em 0;
+            }
+            .page-about-row{
+                display: flex;
+                flex-direction: row;
+                padding: 1.5em 0;
+
+                img{
+                    padding-top: 1.5em;
+                    width: 15em;
+                    height: 15em;
+                }
+
+                .page-about-answer{
+                    font-size: 1.4em;
+                    padding: 1em 0;
+                    text-align: justify;
+                    line-height: 1.5em;
+                    padding: 1.5em 3em;
+
+                }
+            }
+        }
+
+    }
+
+
+}

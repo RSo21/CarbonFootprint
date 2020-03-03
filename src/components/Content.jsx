@@ -18,7 +18,7 @@ const Content  = () => {
             </div>
             <div className = "content-buttons">
                 <button className = "content-button"> <NavLink exact to="/questions/energy" >START <i className = "icon-play"></i></NavLink></button>
-                <button className = "content-button">READ MORE <i className = "icon-down-open"></i></button>
+                <button className = "content-button"><a href = "#about" >READ MORE</a> <i className = "icon-down-open"></i></button>
             </div>
         </div>
     </section>
