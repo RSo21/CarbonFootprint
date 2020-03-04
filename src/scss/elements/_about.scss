@@ -6,7 +6,7 @@
         }
     
         .page-about-quote{
-            border: 0.2em solid $mainColor;
+            border: 0.3em solid $mainColor;
             text-align: center;
             vertical-align: middle;
             padding: 1em 6em;
@@ -44,6 +44,14 @@
                 }
             }
         }
+
+    }
+
+    .page-about-line{
+        background-color: $mainColor;
+        height: 0.3em;
+        margin: 3% 10%;
+        width: 80%;
 
     }
 

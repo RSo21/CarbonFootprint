@@ -1,5 +1,7 @@
 import React, { useState, useEffect} from 'react';
 
+import Loader from '../components/Loader.jsx';
+
 import Fern from '../assets/larm-rmah.jpg';
 
 
@@ -24,7 +26,7 @@ const Question = (props) => {
     //   };
 
 if (!question){
-    return <p>ładowanie</p>
+    return <Loader/>
 }
   return (
       <>

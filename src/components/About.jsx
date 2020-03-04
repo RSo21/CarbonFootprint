@@ -57,7 +57,9 @@ const About  = () => {
                      
                  </div>
                  
+                 
              </div>
+             <hr className = "page-about-line"></hr>
          </div>
     </section>
     )

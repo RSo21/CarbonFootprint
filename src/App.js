@@ -81,13 +81,3 @@ const App = () => {
 }
 export default App;
 
-
-
-
-
-
-
-
-//bez switcha pojawią się dwa, ze switchem jedno
-//ze switchem wyświetla się pierwsze
-//exact dopasowanie idealne
