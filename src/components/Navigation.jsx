@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-const Navigation  = () => {
+const Navigation = () => {
     return (
     <header className = "page-header">
         <div className = "col-full col-full-mob nav">

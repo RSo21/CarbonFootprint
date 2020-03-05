@@ -4,6 +4,8 @@ import Content from '../components/Content'
 import About from '../components/About'
 import Footer from '../components/Footer'
 
+import ScrollBtn from '../components/ScrollBtn'
+
 import {Component} from 'react';
 
 
@@ -34,6 +36,7 @@ render(){
         <Content />
         <About />
         <Footer />
+        <ScrollBtn />
         
        
 

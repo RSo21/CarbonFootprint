@@ -1,7 +1,7 @@
 import Spinner from 'react-spinner-material';
 import React, { Component } from 'react';
 
-export default class Loader extends Component {
+class Loader extends Component {
   render() {
   return (
       <div className = "loader-spinner">
@@ -10,3 +10,5 @@ export default class Loader extends Component {
     );
   }
 }
+
+export default Loader;
