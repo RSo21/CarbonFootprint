@@ -15,7 +15,7 @@ class Main extends Component{
     }
 
     componentDidMount() {
-        fetch(`http://localhost:4000/footprint`)
+        fetch('http://localhost:4000/questions')
         .then((response) => {
             return response.json();
 
@@ -47,3 +47,6 @@ render(){
 
 
 export default Main;
+
+
+// fetch(`http://localhost:4000/footprint`)
