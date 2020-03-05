@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rso21.github.io/CarbonFootprint",
+  "homepage": "https://rso21.github.io/CarbonFootprint/",
   "name": "carbon-footprint",
   "version": "0.1.0",
   "private": true,
@@ -42,7 +42,6 @@
     ]
   },
   "devDependencies": {
-    "json-server": "^0.16.1",
-    "gh-pages": "^2.2.0"
+    "json-server": "^0.16.1"
   }
 }
