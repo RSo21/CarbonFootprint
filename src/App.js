@@ -10,11 +10,7 @@ import "../src/fontello/css/fontello.css"
 
 import Question from './pages/Question';
 import Questions from './pages/Questions';
-import WarmWater from "./pages/WarmWater";
-import PersonalTransport from "./pages/PersonalTransport";
-import Flying from "./pages/Flying";
-import Food from "./pages/Food";
-import Shopping from "./pages/Shopping";
+
 
 import {useHistory} from 'react-router-dom'
 
@@ -70,11 +66,6 @@ const App = () => {
                 <Route exact path="/questions" render={()=> {
                   return <Questions questions={questions}/>
                 }}/>
-                {/* <Route exact path="/warmwater" component={WarmWater}/>
-                <Route exact path="/personaltransport" component={PersonalTransport}/>
-                <Route exact path="/flying" component={Flying}/>
-                <Route exact path="/food" component={Food}/>
-                <Route exact path="/shopping" component={Shopping}/> */}
             </Switch>
     </div>
   );
