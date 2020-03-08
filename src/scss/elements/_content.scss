@@ -27,6 +27,7 @@
 
             .content-text{
                 color: $navColorFonts;
+                text-align: center;
 
                 p{
                     font-size: 2em;
@@ -41,6 +42,8 @@
             }
 
             .content-buttons{
+                display: flex;
+                justify-content: center;
                 .content-button{
                     letter-spacing: 0.25em;
                     color: $navColorFonts;

@@ -3,6 +3,7 @@
         font-family: $mainFont;
         .page-about-img{
             padding-top: 2em;
+            text-align: center;
         }
     
         .page-about-quote{
@@ -22,6 +23,7 @@
             .page-about-question{
                 font-size: 3em;
                 padding: 1.4em 0;
+                text-align: center;
             }
             .page-about-row{
                 display: flex;
