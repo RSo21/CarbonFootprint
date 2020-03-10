@@ -4,6 +4,9 @@
     .page-about-img{
         padding-top: 2em;
         text-align: center;
+        @include mobile{
+            max-width: 70%;
+        }
     }
     
     .page-about-quote{
@@ -39,12 +42,17 @@
             flex-direction: row;
             padding: 1.5em 0;
 
+            @include mobile{
+                flex-direction: column;
+            }
+
             img{
                 padding-top: 1.5em;
                 width: 15em;
                 height: 15em;
 
                 @include mobile{
+                    align-self: center;
                     width: 10em;
                     height: 10em;
                 }

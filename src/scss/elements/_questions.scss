@@ -17,6 +17,10 @@
                 background-repeat: no-repeat;
                 padding: 0;
                 margin: 0;
+
+                @include mobile{
+                    background-size: contain;;
+                }
         }
     }
 
@@ -34,6 +38,10 @@
             font-size: 2em;
             color: $navColorFonts;
             font-weight: 600;
+
+            @include mobile{
+                font-size: 1em;
+            }
         }
 
         .start-type{
@@ -43,6 +51,7 @@
             font-weight: 600;
 
             @include mobile{
+                font-size: 1.7em;
                 padding: 0.7em 0;
             }
         }
@@ -55,11 +64,21 @@
             border: 0.2em solid $questionsBg;
             font-size: 1.2em;
             font-weight: 700;
-            margin-left: 1em;
+            //margin-left: 1em;
             margin-bottom: 2em;
 
+            input[type="radio"]{
+                width: 1em;
+                height: 1em;
+                @include mobile{
+                    width: 0.5em;
+                    height: 0.5em;
+                }
+            }
+
             @include mobile{
-                font-size: 1em;
+                font-size: 0.5em;
+                padding: 0.2em 1em;
             }
 
             label{
