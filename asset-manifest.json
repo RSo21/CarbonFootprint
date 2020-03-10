@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CarbonFootprint/static/css/main.6de51ccf.chunk.css",
-    "main.js": "/CarbonFootprint/static/js/main.79db94a2.chunk.js",
-    "main.js.map": "/CarbonFootprint/static/js/main.79db94a2.chunk.js.map",
+    "main.css": "/CarbonFootprint/static/css/main.c10c671d.chunk.css",
+    "main.js": "/CarbonFootprint/static/js/main.4780ae3d.chunk.js",
+    "main.js.map": "/CarbonFootprint/static/js/main.4780ae3d.chunk.js.map",
     "runtime-main.js": "/CarbonFootprint/static/js/runtime-main.66971f4a.js",
     "runtime-main.js.map": "/CarbonFootprint/static/js/runtime-main.66971f4a.js.map",
     "static/js/2.ff3a2c33.chunk.js": "/CarbonFootprint/static/js/2.ff3a2c33.chunk.js",
     "static/js/2.ff3a2c33.chunk.js.map": "/CarbonFootprint/static/js/2.ff3a2c33.chunk.js.map",
     "index.html": "/CarbonFootprint/index.html",
-    "precache-manifest.ee78a823b6032df2b842f1fbd05ff12a.js": "/CarbonFootprint/precache-manifest.ee78a823b6032df2b842f1fbd05ff12a.js",
+    "precache-manifest.b44b537753e62a6c726c77a02609f079.js": "/CarbonFootprint/precache-manifest.b44b537753e62a6c726c77a02609f079.js",
     "service-worker.js": "/CarbonFootprint/service-worker.js",
-    "static/css/main.6de51ccf.chunk.css.map": "/CarbonFootprint/static/css/main.6de51ccf.chunk.css.map",
+    "static/css/main.c10c671d.chunk.css.map": "/CarbonFootprint/static/css/main.c10c671d.chunk.css.map",
     "static/js/2.ff3a2c33.chunk.js.LICENSE.txt": "/CarbonFootprint/static/js/2.ff3a2c33.chunk.js.LICENSE.txt",
     "static/media/def.png": "/CarbonFootprint/static/media/def.5963b991.png",
     "static/media/fontello.css": "/CarbonFootprint/static/media/fontello.dae408b0.eot",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.66971f4a.js",
     "static/js/2.ff3a2c33.chunk.js",
-    "static/css/main.6de51ccf.chunk.css",
-    "static/js/main.79db94a2.chunk.js"
+    "static/css/main.c10c671d.chunk.css",
+    "static/js/main.4780ae3d.chunk.js"
   ]
 }
