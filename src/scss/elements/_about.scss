@@ -1,61 +1,74 @@
-@media only screen and (min-width: 979px) {
-    .page-about{
-        font-family: $mainFont;
-        .page-about-img{
-            padding-top: 2em;
-            text-align: center;
-        }
+.page-about{
+    font-family: $mainFont;
     
-        .page-about-quote{
-            border: 0.3em solid $mainColor;
-            text-align: center;
-            vertical-align: middle;
-            padding: 1em 6em;
+    .page-about-img{
+        padding-top: 2em;
+        text-align: center;
+    }
+    
+    .page-about-quote{
+        border: 0.3em solid $mainColor;
+        text-align: center;
+        vertical-align: middle;
+        padding: 1em 6em;
+        
             p{
               font-size: 1.4em;
-              line-height: 1.5em;  
-            }
-        }
-
-        .page-about-def,
-        .page-about-calc,
-        .page-about-reduce{
-            .page-about-question{
-                font-size: 3em;
-                padding: 1.4em 0;
-                text-align: center;
-            }
-            .page-about-row{
-                display: flex;
-                flex-direction: row;
-                padding: 1.5em 0;
-
-                img{
-                    padding-top: 1.5em;
-                    width: 15em;
-                    height: 15em;
-                }
-
-                .page-about-answer{
-                    font-size: 1.4em;
-                    padding: 1em 0;
-                    text-align: justify;
-                    line-height: 1.5em;
-                    padding: 1.5em 3em;
-
+              line-height: 1.5em;
+              
+                @include mobile{
+                    font-size: 1.3em;
                 }
             }
         }
 
+    .page-about-def,
+    .page-about-calc,
+    .page-about-reduce{
+    .page-about-question{
+        font-size: 3em;
+        padding: 1.4em 0;
+        text-align: center;
+
+            @include mobile{
+                font-size: 2em;
+            }
+        }
+        .page-about-row{
+            display: flex;
+            flex-direction: row;
+            padding: 1.5em 0;
+
+            img{
+                padding-top: 1.5em;
+                width: 15em;
+                height: 15em;
+
+                @include mobile{
+                    width: 10em;
+                    height: 10em;
+                }
+            }
+
+            .page-about-answer{
+                font-size: 1.4em;
+                padding: 1em 0;
+                text-align: justify;
+                line-height: 1.5em;
+                padding: 1.5em 3em;
+
+                    @include mobile{
+                        font-size: 1em;
+                    }
+
+            }
+        }
     }
+}
 
-    .page-about-line{
-        background-color: $mainColor;
-        height: 0.3em;
-        margin: 3% 10%;
-        width: 80%;
-
-    }
-
-
+.page-about-line{
+    background-color: $mainColor;
+    height: 0.3em;
+    margin: 3% 10%;
+    width: 80%;
 }

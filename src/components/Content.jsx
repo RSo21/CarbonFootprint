@@ -6,7 +6,7 @@ import Forest from '../assets/kyle-glenn.jpg';
 
 const Content  = () => {
     return (
-    <section className = "content-main">
+    <section className = "content-main col-full-mob">
         <div className = "content-foto" >
             <img src = {Forest} alt = "forest" />
         </div>

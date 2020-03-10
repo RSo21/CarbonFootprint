@@ -1,5 +1,4 @@
 ::root {
-    /*Kolory które nam dadzo*/
 }
 
 *,
@@ -41,19 +40,6 @@ ul {
     flex-wrap: wrap;
     margin: 0 -1rem;
 }
-
-/*Jakby się przyadało
-
-.no-gaps {
-    margin: 0;
-}
-
-.no-gaps > [class*="col-"] {
-    padding: 0;
-}
-
-Żeby kontener również stracił paddingi po bokach, po prostu go pominąć w HTML i działać na samym .inner.no-gaps
-Pamiętać, by lista class w HTML zaczynała się od wersji mobilnej!*/
 
 .col-full-mob,
 .col-half-mob,

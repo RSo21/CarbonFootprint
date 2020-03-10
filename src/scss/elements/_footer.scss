@@ -1,11 +1,14 @@
-@media only screen and (min-width: 979px) {
-    .page-footer{
-        background-color: $navColorBg;
-        height: 8vh;
-        font-size: 1.5em;
-        padding-top: 1em;
-        padding-bottom: 3em;
-        font-family: $mainFont;
+.page-footer{
+    background-color: $navColorBg;
+    height: 8vh;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    font-family: $mainFont;
+        
+        @include mobile{
+            font-size: 1em;
+        }
 
         p{
             color: $navColorFonts;
@@ -17,5 +20,4 @@
             color: $mainColor;
             font-size: 1em;
         }
-    }
 }
