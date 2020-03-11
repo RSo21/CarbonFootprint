@@ -1,21 +1,21 @@
 # CarbonFootprint Calculator
 
-### General info
+## General info
 
 An application that allows you to calculate your Carbon Footprint.
 
 
-### Technologies:
+## Technologies:
 
 Project is created with:
 
 ```
-$ HTML5
-$ SASS
-$ React
+* HTML5
+* SASS
+* React
 ```
 
-### Setup
+## Setup
 
 To run this project, install it locally using npm:
 
