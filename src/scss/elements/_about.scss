@@ -4,8 +4,12 @@
     .page-about-img{
         padding-top: 2em;
         text-align: center;
-        @include mobile{
-            max-width: 20%;
+
+        img{
+            @include mobile{
+                max-width: 30%;
+                height: auto;
+            }
         }
     }
     
