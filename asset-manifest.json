@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CarbonFootprint/static/css/main.06b7032a.chunk.css",
+    "main.css": "/CarbonFootprint/static/css/main.34d8e60e.chunk.css",
     "main.js": "/CarbonFootprint/static/js/main.6ffbfd60.chunk.js",
     "main.js.map": "/CarbonFootprint/static/js/main.6ffbfd60.chunk.js.map",
     "runtime-main.js": "/CarbonFootprint/static/js/runtime-main.66971f4a.js",
@@ -8,9 +8,9 @@
     "static/js/2.6b4da834.chunk.js": "/CarbonFootprint/static/js/2.6b4da834.chunk.js",
     "static/js/2.6b4da834.chunk.js.map": "/CarbonFootprint/static/js/2.6b4da834.chunk.js.map",
     "index.html": "/CarbonFootprint/index.html",
-    "precache-manifest.6c5ee987dfd31a234e1aee7b5cf3f0f6.js": "/CarbonFootprint/precache-manifest.6c5ee987dfd31a234e1aee7b5cf3f0f6.js",
+    "precache-manifest.404d53de6876f13f663970aa40b95d0a.js": "/CarbonFootprint/precache-manifest.404d53de6876f13f663970aa40b95d0a.js",
     "service-worker.js": "/CarbonFootprint/service-worker.js",
-    "static/css/main.06b7032a.chunk.css.map": "/CarbonFootprint/static/css/main.06b7032a.chunk.css.map",
+    "static/css/main.34d8e60e.chunk.css.map": "/CarbonFootprint/static/css/main.34d8e60e.chunk.css.map",
     "static/js/2.6b4da834.chunk.js.LICENSE.txt": "/CarbonFootprint/static/js/2.6b4da834.chunk.js.LICENSE.txt",
     "static/media/def.png": "/CarbonFootprint/static/media/def.5963b991.png",
     "static/media/fontello.css": "/CarbonFootprint/static/media/fontello.db3619f3.woff",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.66971f4a.js",
     "static/js/2.6b4da834.chunk.js",
-    "static/css/main.06b7032a.chunk.css",
+    "static/css/main.34d8e60e.chunk.css",
     "static/js/main.6ffbfd60.chunk.js"
   ]
 }
