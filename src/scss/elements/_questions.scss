@@ -12,14 +12,14 @@
 
         .fernImg{
             box-sizing: border-box;
-                width: 100vw;
-                height: 100vh;
-                background-repeat: no-repeat;
-                padding: 0;
-                margin: 0;
+            width: 100vw;
+            height: 100vh;
+            background-repeat: no-repeat;
+            padding: 0;
+            margin: 0;
 
                 @include mobile{
-                    background-size: contain;;
+                    background-size: contain;
                 }
         }
     }
@@ -55,6 +55,21 @@
                 padding: 0.7em 0;
             }
         }
+
+        .start-type-result{
+            text-align: center;
+            padding-top: 3em;
+            padding-bottom: 1em;
+            font-size: 4em;
+            color: $navColorFonts;
+            font-weight: 600;
+            top: 30vh;
+
+            @include mobile{
+                font-size: 1.7em;
+                padding: 0.7em 0;
+            }
+        }
     
         .start-answer{
             letter-spacing: 0.15em;
@@ -71,14 +86,15 @@
                 width: 1em;
                 height: 1em;
                 @include mobile{
+                    vertical-align: middle;
                     width: 0.5em;
-                    height: 0.5em;
+                    //height: 0.5em;
                 }
             }
 
             @include mobile{
                 font-size: 0.5em;
-                padding: 0.2em 1em;
+                padding: 0.5em 1em;
             }
 
             label{
@@ -90,5 +106,27 @@
                     color: $choiceColor;
                 }  
         }
-    }   
+    }  
+    
+    .result-button{
+        letter-spacing: 0.25em;
+        color: $navColorFonts;
+        background: $resultBg;
+        color: black;
+        padding: 1em 3em;
+        border: 0.2em solid black;
+        font-size: 1.3em;
+        font-weight: 700;
+        margin-left: 1em;
+
+        @include mobile{
+           padding: 0.7em 1em;
+           font-size: 1em;
+           margin-top: 1em;
+        }
+
+        &:hover{
+            border: 0.2em solid $mainColor; 
+        }
+    }
 }

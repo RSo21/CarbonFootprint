@@ -1,0 +1,48 @@
+#statistics{
+    font-family: $mainFont;
+    font-size: 4em;
+    text-align: center;
+    padding: 1em 0;
+
+    @include mobile{
+        font-size: 2em;
+    }
+}
+
+.statistics-page{
+    font-family: $mainFont;
+    display: flex;
+    flex-direction: row;
+
+    .statistics-page-text{
+        font-size: 2em;
+        padding-bottom: 2em;
+
+        @include mobile{
+            font-size: 1em;
+            padding: 0 2em 3em;
+        }
+
+        p{
+            padding-top: 2em;
+        }
+
+        .icon-leaf{
+            color: $mainColor;
+        }
+    }
+
+    .statistics-page-img{
+        padding: 3em 1em 6em 2em;
+
+        @include mobile{
+            display: none;
+        }
+        img{
+            width: 30vh;
+            height: auto;
+        }
+    }
+
+    
+}

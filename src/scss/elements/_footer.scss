@@ -1,6 +1,6 @@
 .page-footer{
     background-color: $navColorBg;
-    height: 8vh;
+    height: 12vh;
     font-size: 1.5em;
     padding-top: 1em;
     padding-bottom: 3em;
@@ -16,7 +16,12 @@
             text-align: center;
         }
 
-        .icon-heart-empty{
+        .footer-link{
+            color: $mainColor;
+        }
+
+        .icon-heart-empty,
+        .icon-github-circled-alt2{
             color: $mainColor;
             font-size: 1em;
         }

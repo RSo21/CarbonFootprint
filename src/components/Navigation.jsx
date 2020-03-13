@@ -7,14 +7,17 @@ const Navigation = () => {
     return (
     <header className = "page-header">
         <div className = "col-full col-full-mob nav">
-            <div className = "logo"><a href = "#">CarbonFootprint</a></div>
+            <div className = "logo"><a href = "/CarbonFootprint/">CarbonFootprint</a></div>
             <nav className = "page-nav"><i className = "icon-menu"></i>
                 <ul className = "page-nav-list">
                     <li>
-                        <a href = "#">HOME</a>
+                        <a href = "/CarbonFootprint/">HOME</a>
                     </li>
                     <li>
-                        <a href = "#about">ABOUT</a>
+                        <a href = "#about">ABOUT</a>   
+                    </li>
+                    <li>
+                        <a href = "#statistics">STATISTICS</a>
                     </li>
                     <li>
                         <NavLink exact to="/questions/energy" >START</NavLink>
