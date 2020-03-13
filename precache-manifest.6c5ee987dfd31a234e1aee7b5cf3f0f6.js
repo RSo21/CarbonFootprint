@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95628da16790f1dab4ccae9e8dfe6ef1",
+    "revision": "390b0e3ea135b2f11c84eea2f360d366",
     "url": "/CarbonFootprint/index.html"
   },
   {
-    "revision": "824b92f7bae8b96fa495",
-    "url": "/CarbonFootprint/static/css/main.f784f80e.chunk.css"
+    "revision": "53bd2b46ebc922a6a1f5",
+    "url": "/CarbonFootprint/static/css/main.06b7032a.chunk.css"
   },
   {
-    "revision": "2c64180ac94edc980d19",
-    "url": "/CarbonFootprint/static/js/2.9a12bbc7.chunk.js"
+    "revision": "4bbdae6fc849652b1f1a",
+    "url": "/CarbonFootprint/static/js/2.6b4da834.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/CarbonFootprint/static/js/2.9a12bbc7.chunk.js.LICENSE.txt"
+    "url": "/CarbonFootprint/static/js/2.6b4da834.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "824b92f7bae8b96fa495",
-    "url": "/CarbonFootprint/static/js/main.3af1934b.chunk.js"
+    "revision": "53bd2b46ebc922a6a1f5",
+    "url": "/CarbonFootprint/static/js/main.6ffbfd60.chunk.js"
   },
   {
     "revision": "6fb63bc838720bfe5e15",
