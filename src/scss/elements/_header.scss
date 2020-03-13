@@ -1,16 +1,47 @@
-.page-header{
-    background-color: $navColorBg;
-    color: $navColorFonts;
+.page-header-mobile{
+    background-color: black;
     height: 8vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: $mainFont;
+    position: fixed;
+    justify-content: flex-end;
+    align-items: flex-end;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    color: white;
+
+        .icon-menu{
+            font-size: 2em;
+            top: 0;
+            padding-right: 2em;
+            padding-bottom: 3em;
+        }
+    
+    .menu-mobile{
+        background: black;
+        opacity: 0.9;
+
+        p{
+        text-align: center;
+        color: white;
+        padding-top: 2em;
+        opacity: 1;
+        font-weight: 800;
+
+            a{
+                font-size: 2em;
+                font-weight: 800;
+
+                &:hover{
+                    color: $mainColor;
+                }
+            }
+        }
+    
+    }
 
 }
-
-
-@media only screen and (min-width: 979px) {
 
 
 .page-header{
@@ -76,4 +107,4 @@
         }
     }
 }
-};
+// };

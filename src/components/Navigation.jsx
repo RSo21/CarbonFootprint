@@ -1,9 +1,67 @@
 import {NavLink} from "react-router-dom";
-import React from "react";
+import React, { Component } from "react";
+
+import { slide as Menu } from "react-burger-menu";
 
 
 
-const Navigation = () => {
+class  Navigation extends Component {
+    state = {
+        width: window.innerWidth,
+    };
+
+    componentDidMount() {
+        window.addEventListener('resize', this.handleWindowSizeChange);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleWindowSizeChange);
+    }
+
+    handleWindowSizeChange = () => {
+        this.setState({ width: window.innerWidth });
+    };
+
+
+    handleClick() {
+        this.setState({
+            open: !this.state.open
+        });
+    }
+
+    render(){
+        const { width } = this.state;
+        const isMobile = width <= 978;
+    
+        if (isMobile){
+            return(
+                <header className = "page-header-mobile">
+                    {/* <div className = "logo-mobile"><a href = "/CarbonFootprint/">CarbonFootprint</a></div> */}
+                    <div><i className = "icon-menu" menuClicked={this.handleClick}></i> 
+                     </div>
+                    <Menu className = "menu-mobile" pageWrapId={"page-wrap"} isOpen={true} width={ 200 }>
+                        <p activeClass="active" spy={true} smooth={true} offset={50} duration={500}>
+                        <a href = "/CarbonFootprint/">HOME</a>
+                        </p>
+                        <p activeClass="active"  spy={true} smooth={true} offset={50} duration={500}>
+                        <a href = "#about">ABOUT</a>  
+                        </p>
+                        <p activeClass="active" spy={true} smooth={true} offset={50} duration={500}>
+                        <a href = "#statistics">STATISTICS</a>
+                        </p>
+                        <p>
+                        <NavLink exact to="/start" >START</NavLink>
+                        </p>
+                        <p activeClass="active" to="start" spy={true} smooth={true} offset={50} duration={500}>
+                        <a href ="#contact">CONTACT</a>
+                        </p>
+                    </Menu>
+                </header>
+            )
+        }
+        else{
+
+        }
     return (
     <header className = "page-header">
         <div className = "col-full col-full-mob nav">
@@ -20,15 +78,16 @@ const Navigation = () => {
                         <a href = "#statistics">STATISTICS</a>
                     </li>
                     <li>
-                        <NavLink exact to="/questions/energy" >START</NavLink>
+                        <NavLink exact to="/start">START</NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/contact" >CONTACT</NavLink>
+                        <a href ="#contact" >CONTACT</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     )
+}
 }
 export default Navigation;

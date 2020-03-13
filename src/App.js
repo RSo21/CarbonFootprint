@@ -90,7 +90,7 @@ class App extends Component {
       <div className = "App">
         <Switch>
             <Route exact path="/CarbonFootprint" component={Main}/>
-            <Route exact path="/questions/energy" component = {CarbonEnd}/>  
+            <Route exact path="/start" component = {CarbonEnd}/>  
         </Switch>
       </div>
     );
