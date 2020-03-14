@@ -33,4 +33,4 @@ To run this project, install it locally using npm:
 
 ### Demo
 
-Try this working demo: [carbonfootprint](https://rso21.github.io/carbonfootprint)
+Try this working demo: [carbonfootprint](https://rso21.github.io/CarbonFootprint/)
