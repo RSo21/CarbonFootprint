@@ -1,5 +1,5 @@
 .page-footer{
-    background-color: $navColorBg;
+    background-color: $colorBg;
     height: 15vh;
     font-size: 1.5em;
     padding-top: 1em;
@@ -12,7 +12,7 @@
         }
 
         p{
-            color: $navColorFonts;
+            color: $colorFonts;
             padding-bottom: 0.5em;
             text-align: center;
         }

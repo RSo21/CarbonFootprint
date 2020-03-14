@@ -31,7 +31,7 @@
             position: absolute;
 
             .content-text{
-                color: $navColorFonts;
+                color: $colorFonts;
                 text-align: center;
 
                 p{
@@ -64,10 +64,10 @@
 
                 .content-button{
                     letter-spacing: 0.25em;
-                    color: $navColorFonts;
+                    color: $colorFonts;
                     background: transparent;
                     padding: 1em 3em;
-                    border: 0.2em solid $navColorFonts;
+                    border: 0.2em solid $colorFonts;
                     font-size: 1.3em;
                     font-weight: 700;
                     margin-left: 1em;

@@ -1,5 +1,5 @@
 .page-header-mobile{
-    background-color: black;
+    background-color: $colorBg;
     height: 8vh;
     display: flex;
     position: fixed;
@@ -9,7 +9,7 @@
     right: 0;
     top: 0;
     z-index: 2;
-    color: white;
+    color: $colorFonts;
 
         .icon-menu{
             font-size: 2em;
@@ -19,12 +19,12 @@
         }
     
     .menu-mobile{
-        background: black;
+        background: $colorBg;
         opacity: 0.9;
 
         p{
         text-align: center;
-        color: white;
+        color: $colorFonts;
         padding-top: 2em;
         opacity: 1;
         font-weight: 800;
@@ -45,8 +45,8 @@
 
 
 .page-header{
-    background-color: $navColorBg;
-    color: $navColorFonts;
+    background-color: $colorBg;
+    color: $colorFonts;
     height: 8vh;
     display: flex;
     align-items: center;
@@ -107,4 +107,3 @@
         }
     }
 }
-// };
