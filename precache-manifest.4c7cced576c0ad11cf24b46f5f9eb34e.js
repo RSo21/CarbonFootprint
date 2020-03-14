@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4dd41c520064b07571bd51163fd26804",
+    "revision": "c5bbcb388e59a65b9ef0420f21d5f73b",
     "url": "/CarbonFootprint/index.html"
   },
   {
-    "revision": "3c3fdb05b07cd2ea677a",
-    "url": "/CarbonFootprint/static/css/main.e596ab1f.chunk.css"
+    "revision": "e4d4213df23d5da8aeb7",
+    "url": "/CarbonFootprint/static/css/main.b8f6c693.chunk.css"
   },
   {
     "revision": "4bbdae6fc849652b1f1a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CarbonFootprint/static/js/2.6b4da834.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c3fdb05b07cd2ea677a",
-    "url": "/CarbonFootprint/static/js/main.6ffbfd60.chunk.js"
+    "revision": "e4d4213df23d5da8aeb7",
+    "url": "/CarbonFootprint/static/js/main.ec743c40.chunk.js"
   },
   {
     "revision": "6fb63bc838720bfe5e15",
