@@ -19,7 +19,7 @@
             margin: 0;
 
                 @include mobile{
-                    background-size: contain;
+                    background-size: cover;
                 }
         }
     }

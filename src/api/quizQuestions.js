@@ -59,7 +59,7 @@ let quizQuestions = [
           },
           {
               type: 0.8,
-              content: "TI fly max. two short distance flights or one long distance every couple of years"
+              content: "I fly max. two short distance flights or one long distance every couple of years"
           },
           {
               type: 4.7,
