@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className = "App">
         <Switch>
-            <Route exact path="/" component={Main}/>
+            <Route exact path="/carbonfootprint" component={Main}/>
             <Route exact path="/start" component = {CarbonEnd}/>  
         </Switch>
       </div>

@@ -2,7 +2,7 @@
 
 ## General info
 
-The app contains information about the carbon footprint and will calculate your average carbon footprint
+The app contains information about the carbon footprint and will calculate your average carbon footprint.
 
 
 ## Technologies:
@@ -33,4 +33,4 @@ To run this project, install it locally using npm:
 
 ### Demo
 
-Try this working demo: [carbonfootprint](https://rso21.github.io/carbonfootprint/)
+Try this working demo: [carbonfootprint](https://rso21.github.io/carbonfootprint)
