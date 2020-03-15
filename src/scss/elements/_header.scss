@@ -1,6 +1,6 @@
 .page-header-mobile{
     background-color: $colorBg;
-    height: 8vh;
+    height: 4vh;
     display: flex;
     position: fixed;
     justify-content: flex-end;
@@ -12,10 +12,10 @@
     color: $colorFonts;
 
         .icon-menu{
-            font-size: 2em;
+            font-size: 1.6em;
             top: 0;
-            padding-right: 2em;
-            padding-bottom: 3em;
+            padding-right: 0.5em;
+            padding-bottom: 1em;
         }
     
     .menu-mobile{

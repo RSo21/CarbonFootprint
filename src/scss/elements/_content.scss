@@ -39,7 +39,7 @@
                     font-weight: 600;
 
                     @include mobile{
-                        font-size: 1em;
+                        font-size: 0.7em;
                     }
                 
                     &:last-of-type{
@@ -47,7 +47,7 @@
                         padding: 1em 0;
 
                         @include mobile{
-                            font-size: 2em;
+                            font-size: 1.1em;
                         }
                     }
                 }
@@ -73,8 +73,8 @@
                     margin-left: 1em;
 
                     @include mobile{
-                       padding: 0.7em 1em;
-                       font-size: 1em;
+                       padding: 0.5em 0.7em;
+                       font-size: 0.6em;
                        margin-top: 1em;
                     }
 

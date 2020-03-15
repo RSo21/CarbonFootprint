@@ -135,9 +135,9 @@ export default CarbonEnd;
 
 // import React, { Component } from 'react';
 // import quizQuestions from '../api/quizQuestions';
-// import Quiz from './Quiz';
-// import Result from './Result';
-// import QuestionCount from './QuestionCount';
+// import Quiz from '../components/Quiz';
+// import Result from '../components/Result';
+// import QuestionCount from '../components/QuestionCount';
 
 // import Fern from '../assets/larm-rmah.jpg';
 
@@ -164,7 +164,7 @@ export default CarbonEnd;
 //   renderQuiz() {
 //     return (
 //       <>
-//         <QuestionCount counter={this.state.currentQuestionIndex + 1} total={quizQuestions.length} />
+//         <QuestionCount counter={this.state.currentQuestionIndex + 1} total={quizQuestions.length}/>
 //         <Quiz
 //           question={quizQuestions[this.state.currentQuestionIndex]}
 //           onAnswerSelected={this.handleAnswerSelected}
