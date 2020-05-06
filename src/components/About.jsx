@@ -24,8 +24,7 @@ const About  = () => {
                         be supplemented by tons of CO2-equivalent gases, including methane, nitrous oxide, and other 
                         greenhouse gases.</p>
                         <img src = {Def} alt = "def"/>
-                     </div>
-                     
+                     </div>   
                  </div>
 
                  <div className = "page-about-calc">
@@ -53,10 +52,8 @@ const About  = () => {
                         doesn't require as much transportation, and eating less meat, which has a higher carbon footprint
                         than fruits and vegetables.</p>
                         <img src = {Reduce} alt = "reduce"/>
-                     </div>
-                     
+                     </div>  
                  </div>
-                 
                  
              </div>
              <hr className = "page-about-line"></hr>

@@ -6,7 +6,7 @@ import Result from '../components/Result';
 import Fern from '../assets/larm-rmah.jpg';
 
 
-class CarbonEnd extends Component {
+class HomeResult extends Component {
   constructor(props) {
     super(props);
 
@@ -65,7 +65,6 @@ class CarbonEnd extends Component {
     }));
   }
   
-//zwiekszanie stanu licznika
   setNextQuestion() {
     const counter = this.state.counter + 1;
     const questionId = this.state.questionId + 1;
@@ -79,18 +78,15 @@ class CarbonEnd extends Component {
     });
   }
 
-  //obliczamy sume zaznaczonych odp
   getResults() {
     const answersCount = this.state.answersCount;
     const answersCountKeys = Object.keys(answersCount);
-    //console.log(answersCountKeys); // wyświetla tablice z punktami zaznaczonych odpowiedzi
     
     let sum = 0;
     for (let i = 0; i <answersCountKeys.length; i++){
       sum += parseFloat(answersCountKeys[i]);
       
     }
-    //console.log(sum); //zwraca sume zaznaczonych odp
     return sum;
     
   }
@@ -129,7 +125,7 @@ class CarbonEnd extends Component {
   }
 }
 
-export default CarbonEnd;
+export default HomeResult;
 
 
 
@@ -138,16 +134,18 @@ export default CarbonEnd;
 // import Quiz from '../components/Quiz';
 // import Result from '../components/Result';
 // import QuestionCount from '../components/QuestionCount';
+// import Question from '../components/Question';
 
 // import Fern from '../assets/larm-rmah.jpg';
 
-// class CarbonEnd extends Component {
+// class HomeResult extends Component {
 //   constructor(props) {
 //     super(props);
 
 //     this.state = {
 //       currentQuestionIndex: 0,
 //       result: 0,
+//       question: quizQuestions[0].question,
 //     };
 //   }
 
@@ -155,9 +153,12 @@ export default CarbonEnd;
 //     const qIndex = this.state.currentQuestionIndex;
 //     const { type } = quizQuestions[qIndex].answers[selectedAnswerIndex];
 //     const nextQuestionIndex = qIndex + 1;
+//     let question1 = quizQuestions[qIndex].question;
+    
 //     this.setState({
 //       result: this.state.result + type,
 //       currentQuestionIndex: nextQuestionIndex, 
+//       question: question1,
 //     });
 //   }
 
@@ -165,6 +166,7 @@ export default CarbonEnd;
 //     return (
 //       <>
 //         <QuestionCount counter={this.state.currentQuestionIndex + 1} total={quizQuestions.length}/>
+//         <Question content={this.state.question}/>
 //         <Quiz
 //           question={quizQuestions[this.state.currentQuestionIndex]}
 //           onAnswerSelected={this.handleAnswerSelected}
@@ -188,4 +190,4 @@ export default CarbonEnd;
 //   }
 // }
 
-// export default CarbonEnd;
+// export default HomeResult;

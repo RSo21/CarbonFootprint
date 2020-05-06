@@ -4,8 +4,8 @@ import { Route, Switch } from 'react-router-dom';
 import "../src/scss/main.scss";
 import "../src/fontello/css/fontello.css"
 
-import Main from './pages/Main';
-import CarbonEnd from './pages/CarbonEnd';
+import Home from './pages/Home';
+import HomeResult from './pages/HomeResult';
 
 class App extends Component {
 
@@ -13,8 +13,8 @@ class App extends Component {
     return (
       <div className = "App">
         <Switch>
-            <Route exact path="/CarbonFootprint" component={Main}/>
-            <Route exact path="/start" component = {CarbonEnd}/>  
+            <Route exact path="/CarbonFootprint" component={Home}/>
+            <Route exact path="/start" component = {HomeResult}/>  
         </Switch>
       </div>
     );

@@ -43,17 +43,29 @@ Quiz.propTypes = {
 export default Quiz;
 
 
+
+
+
+
+
+
+
+
 // import React from 'react';
 // import PropTypes from 'prop-types';
+// import quizQuestions from '../api/quizQuestions';
+// import Question from '../components/Question';
+
 
 // function Quiz({
 //   question,
 //   onAnswerSelected,
+
 // }) {
 //   return (
-//     <div className = "page-start-text">
+//     <div className = "page-start-text" >
 //       {/* Nie wiem skąd brałaś pytania */}
-//       {/* <h2 className = "start-type">{content}</h2>  */}
+//        {/* <h2 className = "start-type"></h2> */}
 //       <ul>
 //         {question.answers.map((answer, index) => (
 //           <li
