@@ -17,8 +17,8 @@ const Content  = () => {
                 
             </div>
             <div className = "content-buttons">
-                <button className = "content-button"> <NavLink exact to="/start" >START <i className = "icon-play"></i></NavLink></button>
-                <button className = "content-button"><a href = "#about" >READ MORE</a> <i className = "icon-down-open"></i></button>
+                <NavLink exact to="/start"><button className = "content-button"> START <i className = "icon-play"></i></button></NavLink>
+                <a href = "#about"><button className = "content-button">READ MORE<i className = "icon-down-open"></i></button></a> 
             </div>
         </div>
     </section>
