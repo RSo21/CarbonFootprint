@@ -10,7 +10,6 @@ const Footer  = () => {
             <p> Roksana Sobczak &#169; 2020</p>
             <p>Find me on: <a className = "footer-link" href = "https://github.com/RSo21" alt = "github">GitHub</a><i className = "icon-github-circled-alt2"></i></p  >
         </div>
-
     </footer>
     )
 }
