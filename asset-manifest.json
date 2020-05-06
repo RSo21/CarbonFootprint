@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CarbonFootprint/static/css/main.968dc84f.chunk.css",
-    "main.js": "/CarbonFootprint/static/js/main.3f3aadc0.chunk.js",
-    "main.js.map": "/CarbonFootprint/static/js/main.3f3aadc0.chunk.js.map",
+    "main.js": "/CarbonFootprint/static/js/main.ecfca0e3.chunk.js",
+    "main.js.map": "/CarbonFootprint/static/js/main.ecfca0e3.chunk.js.map",
     "runtime-main.js": "/CarbonFootprint/static/js/runtime-main.66971f4a.js",
     "runtime-main.js.map": "/CarbonFootprint/static/js/runtime-main.66971f4a.js.map",
     "static/js/2.6b4da834.chunk.js": "/CarbonFootprint/static/js/2.6b4da834.chunk.js",
     "static/js/2.6b4da834.chunk.js.map": "/CarbonFootprint/static/js/2.6b4da834.chunk.js.map",
     "index.html": "/CarbonFootprint/index.html",
-    "precache-manifest.3d2c4dfdd81d935f91281db40d62f054.js": "/CarbonFootprint/precache-manifest.3d2c4dfdd81d935f91281db40d62f054.js",
+    "precache-manifest.dc3586bb163d116eb68921cc27875ece.js": "/CarbonFootprint/precache-manifest.dc3586bb163d116eb68921cc27875ece.js",
     "service-worker.js": "/CarbonFootprint/service-worker.js",
     "static/css/main.968dc84f.chunk.css.map": "/CarbonFootprint/static/css/main.968dc84f.chunk.css.map",
     "static/js/2.6b4da834.chunk.js.LICENSE.txt": "/CarbonFootprint/static/js/2.6b4da834.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.66971f4a.js",
     "static/js/2.6b4da834.chunk.js",
     "static/css/main.968dc84f.chunk.css",
-    "static/js/main.3f3aadc0.chunk.js"
+    "static/js/main.ecfca0e3.chunk.js"
   ]
 }
