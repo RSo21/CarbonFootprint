@@ -9,11 +9,10 @@ The app contains information about the carbon footprint and will calculate your 
 
 Project is created with:
 
-```
 * HTML5
 * SASS
 * React
-```
+
 
 ## Additional dependencies:
 
@@ -28,9 +27,9 @@ To run this project, install it locally using npm:
 
 *  ```git clone https://github.com/RSo21/CarbonFootprint.git``` to clone the repository
 * ```npm install``` to install all dependencies
-* ```npm start``` and ```http://localhost:3000/``` in the browser to preview the app 
+* ```npm start``` and ```http://localhost:3000/CarbonFootprint``` in the browser to preview the app 
 
 
 ### Demo
 
-Try this working demo: [carbonfootprint](https://rso21.github.io/CarbonFootprint/)
+Try this working demo: [CARBONFOOTPRINT](https://rso21.github.io/CarbonFootprint/)
