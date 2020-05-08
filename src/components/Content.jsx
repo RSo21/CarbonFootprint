@@ -13,8 +13,7 @@ const Content  = () => {
         <div className = "content-element">
             <div className = "content-text">
                 <p>Do you know...</p>
-                <p>What Is your Carbon Footprint?</p>
-                
+                <p>What Is your Carbon Footprint?</p>  
             </div>
             <div className = "content-buttons">
                 <NavLink exact to="/start"><button className = "content-button"> START <i className = "icon-play"></i></button></NavLink>
